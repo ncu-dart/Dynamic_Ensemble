@@ -1,1 +1,1 @@
-# DER (D
+# DER (Dynamic Esemble Research)
