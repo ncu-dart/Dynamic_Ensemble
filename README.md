@@ -14,6 +14,8 @@ after setting all things that metion above run DELR.py
 
 2.if you want to try my method on your own dataset set as follow
 
+    preprocessed the dataset as you wish and the first colum should be the label of the instances
+    
     set classnumber to the numbers of class in your dataset
     
     set dataset = 5
@@ -21,7 +23,5 @@ after setting all things that metion above run DELR.py
     set dataname as taskname
     
     rename your dataset as dataname-train and dataname-test
-    
-    the first colum should be the label of the instances
     
 after setting all things that metion above run DELR.py
