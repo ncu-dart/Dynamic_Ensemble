@@ -14,7 +14,9 @@ after setting all things that metion above run DELR.py
 
 2.if you want to try my method on your own dataset set as follow
 
-    preprocessed the dataset as you wish and the first colum should be the label of the instances
+    preprocessed the dataset as you wish 
+    
+    the first colum should be the label of the instances and save the files to csv 
     
     set classnumber to the numbers of class in your dataset
     
