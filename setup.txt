@@ -1,0 +1,3 @@
+mode = 2
+dataset = 2
+dataname = ardata
