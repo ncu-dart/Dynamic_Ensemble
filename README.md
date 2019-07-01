@@ -22,4 +22,6 @@ after setting all things that metion above run DELR.py
     
     rename your dataset as dataname-train and dataname-test
     
+    the first colum should be the label of the instances
+    
 after setting all things that metion above run DELR.py
