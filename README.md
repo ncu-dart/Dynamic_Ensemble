@@ -1,1 +1,1 @@
-# DER (Dynamic Esemble Research)
+# DELR (Dynamic Esemble Learning Research)
