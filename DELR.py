@@ -2842,7 +2842,7 @@ def main():
     data = pd.read_csv('setup.txt', header = None, delimiter = " ")
     data = data.values
     
-    mode = data[0,2]                #set numbers of class (>=2)
+    mode = int(data[0,2])           #set numbers of class (>=2)
     
     if(int(mode) <2):
         print("Wrong class numbers")
