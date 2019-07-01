@@ -3,9 +3,13 @@
 1.if you want to try the dataset I used in my experiment set as follow
 
   for the synthetic data set classnumber = 2, datatset = 1
+  
   for the allstate data set classnumber = 2, datatset = 2
+  
   for the fashion-mnist data set classnumber = 10, datatset = 3
+  
   for the kuzushiji-mnist data set classnumber = 10, datatset = 4
+  
   
 2.if you want to try my method on your own dataset set as follow
 
