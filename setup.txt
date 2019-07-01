@@ -1,3 +1,3 @@
-mode = 2
+classnumber = 2
 dataset = 2
 dataname = ardata
