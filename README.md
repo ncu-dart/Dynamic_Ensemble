@@ -10,7 +10,7 @@
   
     for the kuzushiji-mnist data set classnumber = 10, datatset = 4
   
-after setting all things that metion above run DELR.py
+after setting all things that mention above run DELR.py
 
 2.if you want to try my method on your own dataset set as follow
 
@@ -26,4 +26,4 @@ after setting all things that metion above run DELR.py
     
     rename your dataset as dataname-train and dataname-test
     
-after setting all things that metion above run DELR.py
+after setting all things that mention above run DELR.py
