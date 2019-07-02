@@ -1,6 +1,6 @@
 # DELR (Dynamic Ensemble Learning Research)
 
-1.if you want to try the dataset I used in my experiment set as follow
+1.if you want to try the dataset I used in my experiment set 'setup.txt' as follow
 
     for the synthetic data set classnumber = 2, datatset = 1
   
@@ -12,7 +12,7 @@
   
 after setting all things that mention above run DELR.py
 
-2.if you want to try my method on your own dataset set as follow
+2.if you want to try my method on your own dataset set 'setup.txt' as follow
 
     preprocessed the dataset as you wish 
     
