@@ -1,4 +1,4 @@
-# DELR (Dynamic Esemble Learning Research)
+# DELR (Dynamic Ensemble Learning Research)
 
 1.if you want to try the dataset I used in my experiment set as follow
 
