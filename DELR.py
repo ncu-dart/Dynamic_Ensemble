@@ -982,8 +982,8 @@ def buildenmen(mn_train, mn_test, mode, dataset, dataname):
 
 def knn(X_train, y_train, X_train_n, y_train_n, X_test, k,dataset,dataname):
     knn = KNeighborsClassifier(n_neighbors=5,n_jobs=-1)
-    X_train = np.concatenate((X_train,X_train_n),axis = 0)
-    y_train = np.concatenate((y_train,y_train_n),axis = 0)
+    #X_train = np.concatenate((X_train,X_train_n),axis = 0)
+    #y_train = np.concatenate((y_train,y_train_n),axis = 0)
     knn.fit(X_train,y_train)
     
     if(dataset == 1):
@@ -1000,9 +1000,9 @@ def knn(X_train, y_train, X_train_n, y_train_n, X_test, k,dataset,dataname):
     return knn.predict(X_train_n), knn.predict(X_test), knn.predict_proba(X_train_n), knn.predict_proba(X_test)
 
 def svc(X_train, y_train, X_train_n, y_train_n, X_test, k,dataset,dataname):
-    svc = SVC(kernel='poly', max_iter= 400, random_state=None, shrinking=False, probability=True)
-    X_train = np.concatenate((X_train,X_train_n),axis = 0)
-    y_train = np.concatenate((y_train,y_train_n),axis = 0)
+    svc = SVC(kernel='poly', max_iter= -1, random_state=None, shrinking=False, probability=True)
+    #X_train = np.concatenate((X_train,X_train_n),axis = 0)
+    #y_train = np.concatenate((y_train,y_train_n),axis = 0)
     
     print(y_train.shape)
     y_train = y_train.reshape(-1,)
@@ -1025,8 +1025,8 @@ def svc(X_train, y_train, X_train_n, y_train_n, X_test, k,dataset,dataname):
 
 def dectree(X_train, y_train, X_train_n, y_train_n, X_test, k,dataset,dataname):
     dectree = DecisionTreeClassifier(random_state=0)
-    X_train = np.concatenate((X_train,X_train_n),axis = 0)
-    y_train = np.concatenate((y_train,y_train_n),axis = 0)
+    #X_train = np.concatenate((X_train,X_train_n),axis = 0)
+    #y_train = np.concatenate((y_train,y_train_n),axis = 0)
     dectree.fit(X_train,y_train)
     
     if(dataset == 1):
@@ -1047,8 +1047,8 @@ def xgboo(X_train, y_train, X_train_n, y_train_n, X_test, k,dataset,dataname):
     n_rounds = 600
     early_stopping = 50
     
-    X_train = np.concatenate((X_train,X_train_n),axis = 0)
-    y_train = np.concatenate((y_train,y_train_n),axis = 0)
+    #X_train = np.concatenate((X_train,X_train_n),axis = 0)
+    #y_train = np.concatenate((y_train,y_train_n),axis = 0)
     
     d_train = xgb.DMatrix(X_train, label = y_train)
     d_val = xgb.DMatrix(X_train_n, label = y_train_n)
